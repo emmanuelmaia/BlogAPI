@@ -1,0 +1,46 @@
+@APIRestful_HostAddress = https://localhost:8888
+
+###
+GET {{APIRestful_HostAddress}}/api/posts/
+Accept: application/json
+
+###
+GET {{APIRestful_HostAddress}}/api/posts/1/
+Accept: application/json
+
+###
+GET {{APIRestful_HostAddress}}/api/posts/1/comments/
+Accept: application/json
+
+###
+GET {{APIRestful_HostAddress}}/
+Accept: application/json
+###
+POST {{APIRestful_HostAddress}}/api/posts/
+Accept: application/json
+Content-Type: application/json
+{
+  "Title": "Como criar uma API com estilo",
+  "Content": "Arrasta pra cima e compra meu curso.",
+  "Author": "Emmanuel",
+  "IsUnlisted": false,
+  "Comments": [
+    {
+      "Username": "Roberto",
+      "Text": "Mudou minha vida! Nota 10!"
+    },
+    {
+      "Username": "Carlos",
+      "Text": "Estou confuso, só chegou um par de óculos de sol aqui..."
+    }
+  ]
+}
+###
+PUT {{APIRestful_HostAddress}}/api/posts/1/comments
+Accept: application/json
+Content-Type: application/json
+{
+    "Username": "João Pessoa",
+    "Text": "Fui baleado!"
+}
+###
