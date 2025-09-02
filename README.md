@@ -10,6 +10,6 @@ APIRestful.http and send requests from there!
 
 If I had more time, I'd set this up on Azure and make a front-end out of Angular or React. With no designer, it probably would look bland, but it would be functional. Would surely add some actual security features and an User Database, connected to google, because I hate having to register an account for everything and anything, and i suppose others do too.
 
-As requested, i didn't use an AI to create or develop this project for me. I did google for solutions on smaller errors that occurred.
+As requested, i didn't use an AI to create or develop this project for me. I did google for solutions on small errors that occurred.
 
 That's all, folks!
